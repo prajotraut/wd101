@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+        
+            
+            <form id="Con">
+                <h2>Registeration Form</h2>
+                <div id="d1">
+                <label for="name">Name </label>
+                <input placeholder="name" type="text" id ="name" name="name" required><br>
+            </div>
+            <div id="d1"> 
+                <label for="email">Email </label>
+                <input placeholder="email " type="email" id ="email" name="email" required><br>
+            </div>
+            <div id="d1">
+                <label for="psw">Password </label>
+                <input placeholder="password" type="password" id ="pwd" name="psw" required><br>
+            </div>
+            <div id="d1">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id ="dob" name="dob" required min="1968-08-08" max="2005-08-08" /> <br>
+            </div>
+            <div id="d2">
+                <input  id= "c1" type="checkbox" name="accept" required >
+                <label for="accept">accept terms and conditions </label>
+                
+            </div>
+                <button  type="submit" id="submit" > Submit</button>
+
+            </form>
+            <div id="t">
+            <table id="tt">
+            <h2>Entries</h2>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Password</th>
+                  <th>Dob</th>
+                  <th>Accepted Terms?</th>
+                </tr>
+               
+              </table>
+            </div>
+
+
+      
+
+
+
+
+   <script src="index.js"></script>
+</body>
+</html>

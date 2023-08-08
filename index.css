@@ -1,0 +1,59 @@
+#Con{
+   
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 30%;
+}
+th{
+  width: 20%;
+}
+#form{
+    width:100%
+    
+}
+label{
+  width: 40%;
+  
+}
+#d1{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+input{
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  background-color: gainsboro;
+  padding: 2%;
+}
+#c1{
+    width: auto;
+    margin-left: 10%;
+}
+h2{
+    text-align: center;
+    
+}
+#submit{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    background-color: green;
+    border: none;
+    border-radius: 5%;
+    color: aliceblue;
+}
+#t{
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:auto;
+    text-align: center;
+   margin-right: 30%;
+
+}
+table{
+    margin: auto;
+    padding: 2%;
+}
